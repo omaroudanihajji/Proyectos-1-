@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-	int n;
-	cout << "Introduce un número " << endl;
-	cin >> n;
-	for (int j =1;  j <= 10; j++) {
-	cout << n << "x" << j << " = " << n * j << endl;	
-	} 
-	return 0;
+int main(){
+    float numero; //la tabla de multiplicar que se hará
+    
+    cout << "Introduzca el número de la tabla de multiplicar que desee: " << endl;
+    cin >> numero;
+    cout << "Tabla de multiplicar del " << numero << endl;
+
+    for (int i = 0; i <= 10; i++){ //bucle for
+        cout << numero << " x " << i << " = " << numero * i << endl;
+    }
+    return 0;
 }
