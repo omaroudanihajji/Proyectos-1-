@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    float lado, altura, base, cuadrado, triangulo;
-
+    float lado, altura, base, cuadrado, triangulo; //las variables necesarias
+    //pedir los datos
     cout << "Introduzca el lado en centametros del cuadrado" << endl;
     cin >> lado;
     cout << "Introduzca la altura en centimetros del triangulo" << endl;
@@ -17,4 +17,5 @@ int main(){
     cout << "El area del triangulo es de " << triangulo << " centimetros cuadrados" << endl;
 
     return 0;
+
 }
