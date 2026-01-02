@@ -9,7 +9,7 @@ int main(){
 	cout << "Introduzca el número de elementos" << endl;
 	cin >> n;
 	cout << "1 "; 
-	for(int i = 1; i <n; i++){
+	for(int i = 1; i <n; i++){  //bucle for
 		z = x + y;
 		cout << z << " ";
 		x = y;   //Actualizando las variables para que cambien.
